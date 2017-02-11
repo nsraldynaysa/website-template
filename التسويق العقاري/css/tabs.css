@@ -1,0 +1,57 @@
+/*
+ * Container
+ */
+.l-tabs {
+	margin: 50px 0 0 40px;
+    display: block;
+}
+/*
+ * Hiding the radio buttons
+ */
+.l-tabs > input[type=radio] {
+	display: none;
+}
+/*
+ * Labels (tabs)
+ */
+.l-tabs > label {
+	background: rgba(0,0,0,0.8);
+	border-right: 1px solid #fff;
+	cursor: pointer;
+	display: block;
+	float: right;
+    font-size: 24px;
+    color: darkorange;
+	padding: 5px 44px;
+}
+.l-tabs > label:first-of-type {
+	border-right: none;
+}
+.l-tabs > label:hover {
+	background: rgba(0,0,0,0.8);
+}
+/*
+ * Currently selected tab
+ */
+.l-tabs > input[type=radio]:checked + label {
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+}
+/*
+ * Content area
+ */
+.l-tabs .our-form {
+	background: rgba(0,0,0,0.8);
+	clear: both;
+	color: #fff;
+	min-height: 10em;
+	padding: 1em 2em;
+}
+.l-tabs .our-form > div {
+	display: none;
+}
+/*
+ * Show content related to selected tab
+ */
+.l-tabs .tab-selector-1:checked ~ .our-form .our-form { display: block; }
+.l-tabs .tab-selector-2:checked ~ .our-form .our-form { display: block; }

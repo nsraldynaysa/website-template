@@ -1,0 +1,77 @@
+/*
+ * The Fonts
+ */
+@font-face{
+    	font-family: 'JF-Flat-regular';
+	src: url('../fonts/JF-Flat-regular.eot');
+    src: url('../fonts/JF-Flat-regular.woff')format('woff');
+}
+html,body,div,h1,h2,h3,h4,h5,h6,p,ul,li,img,form,fieldset,small,a,input{
+	text-decoration: blink;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+.container{
+    width: 220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+
+
+.our-form{
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 48px;
+    color: #3f3f3f;
+    box-shadow:1px 0 2px 1px#b0b1b1;
+    -moz-box-shadow:1px 0 2px 1px #b0b1b1;
+    -webkit-box-shadow:1px 0 2px 1px #b0b1b1;
+}
+
+.our-form .title_heading{
+	text-align: center;
+    font-family: "JF-Flat-regular";
+	font-size: 20px;
+}
+.our-form  .name,
+.our-form  .email,
+.our-form .password,
+.our-form  .submit {
+    margin: 10px;
+    padding: 5px;
+    width: 190px;
+    height: 40px;
+    font-family: "JF-Flat-regular";
+	font-size: 14px;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    text-align: right;
+}
+.our-form  .submit{
+    background-color: darkorange;
+    text-align: center;
+}  
+
+/*
+ * The Footer
+ */
+
+footer{
+    padding: 15px;
+    height: 100px;
+    clear: both;
+}
+.l-copy{
+    text-align: center;
+    color: #3f3f3f;
+    font-family: "JF-Flat-regular";
+	font-size: 12px;
+}
